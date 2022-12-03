@@ -7,7 +7,7 @@ class open implements ActionListener{
     //ongoing personal project
     open(){
         JFrame jf=new JFrame("sheduling_algorithms");
-        ImageIcon img = new ImageIcon("sheduling_algorithms.png");
+        ImageIcon img = new ImageIcon("img_resources/sheduling_algorithms.png");
         jf.setIconImage(img.getImage());
         jf.setLayout(new FlowLayout());
         jf.setSize(1000,600);
