@@ -6,6 +6,8 @@ class open implements ActionListener{
     JLabel jl;
     open(){
         JFrame jf=new JFrame("sheduling_algorithms");
+        ImageIcon img = new ImageIcon("sheduling_algorithms.png");
+        jf.setIconImage(img.getImage());
         jf.setLayout(new FlowLayout());
         jf.setSize(1000,600);
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
