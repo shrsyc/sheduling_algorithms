@@ -4,6 +4,7 @@ import java.awt.event.*;
 
 class open implements ActionListener{
     JLabel jl;
+    //ongoing personal project
     open(){
         JFrame jf=new JFrame("sheduling_algorithms");
         ImageIcon img = new ImageIcon("sheduling_algorithms.png");
